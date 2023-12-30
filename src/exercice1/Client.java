@@ -1,4 +1,4 @@
-package designpattern;
+package exercice1;
 
 /**
  * Client class to demonstrate the use of ProgrammeInterface implementations.

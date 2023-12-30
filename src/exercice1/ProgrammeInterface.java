@@ -3,19 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package designpattern;
+package exercice1;
 
 /**
  *
  * @author H-R
  */
-public class Programme3 implements ProgrammeInterface{
-    public Programme3(){
-        
-    }
-    
-    public void go(){
-        System.out.println("Je suis le traitement 3");
-    }
+public interface ProgrammeInterface {
+    void go();
     
 }
