@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercice5;
+package exercice6;
 
 /**
  *
  * @author H-R
  */
-public interface Noeud {
+public interface Observateur {
     
-    void accept(VisiteurArbre visiteur);
-    
+        void actualise();
 }
